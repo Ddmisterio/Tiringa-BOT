@@ -837,9 +837,9 @@ if ((budy === "Edmilson") || (budy === "edmilson")) {
 cleitu = fs.readFileSync(`./src/cleito.webp`)
 tiringa.sendMessage(from, cleitu, sticker, {quoted: mek})
 }
-if ((budy.includes('confia')) || (budy.includes('Confia'))) {
-reply('Desculpa o Fernando ta ocupado arrumando bug depois arrumo esse comando')
-}
+if ((budy === "confia") || (budy === "Confia")) {
+confia = fs.readFileSync(`./src/confia.webp`)
+tiringa.sendMessage(from, cleitu, sticker, {quoted: mek})
 
 if (budy.match('tiringa')) {
 result = fs.readFileSync(`./src/mask.webp`)

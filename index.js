@@ -808,7 +808,7 @@ tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: 
 if ((budy === 'banido') || (budy === 'Banido') || (budy === 'BANIDO')) {
 buf = fs.readFileSync(`./src/banido.mp3`)
 tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
-]
+}
 if ((budy === "fdp") || (budy === "Fdp") || (budy === "FDP")) {
 tiringa.updatePresence(from, Presence.composing)
 reply("teu pai")
@@ -844,7 +844,7 @@ tiringa.sendMessage(from, cleitu, sticker, {quoted: mek})
 if ((budy === "confia") || (budy === "Confia")) {
 confia = fs.readFileSync(`./src/confia.webp`)
 tiringa.sendMessage(from, cleitu, sticker, {quoted: mek})
-
+}
 if (budy.match('tiringa')) {
 result = fs.readFileSync(`./src/mask.webp`)
 tiringa.sendMessage(from, result, sticker, {quoted: mek })

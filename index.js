@@ -62,7 +62,7 @@ const sotoy = JSON.parse(fs.readFileSync('./data/sotoy.json'))
 const { ptbr } = require('./mess')
 const totalcmd = JSON.parse(fs.readFileSync('./data/totalcmd.json'))[0].totalcmd
 const { Exkey } = JSON.parse(fs.readFileSync('./data/apikey.json')) 
-/*👆API KEY EX TEAM👆 adquira a sua key com*/o = 'wa.me/+555399726611'
+/*👆API KEY EX TEAM👆 adquira a sua key com*/o = 'wa.me/+5569981305275'
 
 //_INFORMAÇÕES DO BOT(settings)
 const infos = JSON.parse(fs.readFileSync('./data/settings.json'))
@@ -647,7 +647,7 @@ tiringa.on('group-participants-update', async (anu) => {
             const isLevelingOn = isGroup ? _leveling.includes(from) : true
             const q = args.join(' ')
             const id = botNumber
-            const tescuk = ["0@s.whatsapp.net"]
+            const tescuk = ["5569981305275@s.whatsapp.net"]
 			let pushname = tiringa.contacts[sender] != undefined ? tiringa.contacts[sender].vname || tiringa.contacts[sender].notify: undefined
     
 			const reply = (tej) => {
@@ -805,6 +805,10 @@ if ((budy === 'bot') || (budy === 'BOT') || (budy === 'Bot')) {
 buf = fs.readFileSync(`./src/onichan.mp3`)
 tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
 }
+if ((budy === 'banido') || (budy === 'Banido') || (budy === 'BANIDO')) {
+buf = fs.readFileSync(`./src/banido.mp3`)
+tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
+]
 if ((budy === "fdp") || (budy === "Fdp") || (budy === "FDP")) {
 tiringa.updatePresence(from, Presence.composing)
 reply("teu pai")
@@ -839,8 +843,8 @@ tiringa.sendMessage(from, cleitu, sticker, {quoted: mek})
 }
 if ((budy === "confia") || (budy === "Confia")) {
 confia = fs.readFileSync(`./src/confia.webp`)
-tiringa.sendMessage(from, confia, sticker, {quoted: mek})
-}
+tiringa.sendMessage(from, cleitu, sticker, {quoted: mek})
+
 if (budy.match('tiringa')) {
 result = fs.readFileSync(`./src/mask.webp`)
 tiringa.sendMessage(from, result, sticker, {quoted: mek })

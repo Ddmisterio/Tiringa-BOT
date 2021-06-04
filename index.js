@@ -843,7 +843,7 @@ tiringa.sendMessage(from, cleitu, sticker, {quoted: mek})
 }
 if ((budy === "confia") || (budy === "Confia")) {
 confia = fs.readFileSync(`./src/confia.webp`)
-tiringa.sendMessage(from, cleitu, sticker, {quoted: mek})
+tiringa.sendMessage(from, confia, sticker, {quoted: mek})
 }
 if (budy.match('tiringa')) {
 result = fs.readFileSync(`./src/mask.webp`)

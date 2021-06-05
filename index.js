@@ -845,6 +845,10 @@ if ((budy === "confia") || (budy === "Confia")) {
 confia = fs.readFileSync(`./src/confia.webp`)
 tiringa.sendMessage(from, confia, sticker, {quoted: mek})
 }
+if ((budy === "gay") || (budy === "Gay")) {
+gay = fs.readFileSync(`./src/gay.webp`)
+tiringa.sendMessage(from, gay, sticker, {quoted: mek})
+}
 if ((budy === "inosuke") || (budy === "Inosuke")) {
 inosuke = fs.readFileSync(`./src/inosuke.webp`)
 tiringa.sendMessage(from, inosuke, sticker, {quoted: mek})

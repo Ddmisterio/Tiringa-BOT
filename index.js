@@ -809,6 +809,10 @@ if ((budy === 'banido') || (budy === 'Banido') || (budy === 'BANIDO')) {
 buf = fs.readFileSync(`./src/banido.mp3`)
 tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
 }
+if ((budy === 'COMUNISMO') || (budy === 'Comunismo') || (budy === 'comunismo')) {
+buf = fs.readFileSync(`./src/comunismo.mp3`)
+tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
+}
 if ((budy === "fdp") || (budy === "Fdp") || (budy === "FDP")) {
 tiringa.updatePresence(from, Presence.composing)
 reply("teu pai")

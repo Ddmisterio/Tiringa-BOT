@@ -22,9 +22,9 @@ sleep 4
 echo -e "Bot criado por:"
 sleep 1
 
-echo -e " ${RED} ▀█▀ ▀▀█▀▀ █▀▀█ █░░░ █░▒█"
-echo -e " ${RED} ░█░ ░▒█░░ █▄▄█ █░░░ █░▒█"
-echo -e " ${RED} ▄█▄ ░▒█░░ █░▒█ █▄▄█ ▀▄▄▀"
+echo -e " ${RED}
+echo -e " ${RED}
+echo -e " ${RED}
 sleep 2
 
 echo -e " ${YELLOW} Olá"

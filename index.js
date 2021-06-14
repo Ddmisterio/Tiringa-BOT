@@ -833,9 +833,17 @@ if ((budy.match("sexo")) || (budy.match("Sexo"))) {
 tiringa.updatePresence(from, Presence.composing)
 reply(`você falou em coito?KKKKKKKKKKKKKKKKKKKKKKKKK`)
 }
-if (budy === "pnc") {
+if ((budy.match("DD")) || (budy.match("dd"))) {
 tiringa.updatePresence(from, Presence.composing)
-reply(`vsfd ${pushname}`)
+reply(`Ddzinho seu delicia cade vc?`)
+}
+if ((budy.match("Fernando")) || (budy.match("fernando"))) {
+tiringa.updatePresence(from, Presence.composing)
+reply(`Gostosoooo`)
+}
+if ((budy.match("cod")) || (budy.match("Cod"))) {
+tiringa.updatePresence(from, Presence.composing)
+reply(`Ddzinho mata geral nesse jogo`)
 }
 if ((budy === "cleito") || (budy === "Cleito")) {
 cleitu = fs.readFileSync(`./src/edmi.webp`)

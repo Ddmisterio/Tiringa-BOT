@@ -62,7 +62,7 @@ const sotoy = JSON.parse(fs.readFileSync('./data/sotoy.json'))
 const { ptbr } = require('./mess')
 const totalcmd = JSON.parse(fs.readFileSync('./data/totalcmd.json'))[0].totalcmd
 const { Exkey } = JSON.parse(fs.readFileSync('./data/apikey.json')) 
-/*👆API KEY EX TEAM👆 adquira a sua key com*/o = 'wa.me/+5569981305275'
+/*👆API KEY EX TEAM👆 adquira a sua key com*/o = 'wa.me/+556981305275'
 
 //_INFORMAÇÕES DO BOT(settings)
 const infos = JSON.parse(fs.readFileSync('./data/settings.json'))
@@ -74,7 +74,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Ddmisterio🧙‍♂️\n' 
             + 'ORG:Dono do Tiringa;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=5569981305275:+55 (69) 998130-5275\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=556981305275:+55 (69) 998130-5275\n' 
             + 'END:VCARD'
 
 //_TIC-TAC-TOE By: Resen
@@ -626,7 +626,7 @@ tiringa.on('group-participants-update', async (anu) => {
             const testat = budy
             const totalchat = await tiringa.chats.all()
 			const botNumber = tiringa.user.jid
-			const ownerNumber = [`5569981305275@s.whatsapp.net`]
+			const ownerNumber = [`556981305275@s.whatsapp.net`]
 			const ownerNumberB = []
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -647,7 +647,7 @@ tiringa.on('group-participants-update', async (anu) => {
             const isLevelingOn = isGroup ? _leveling.includes(from) : true
             const q = args.join(' ')
             const id = botNumber
-            const tescuk = ["5569981305275@s.whatsapp.net"]
+            const tescuk = ["556981305275@s.whatsapp.net"]
 			let pushname = tiringa.contacts[sender] != undefined ? tiringa.contacts[sender].vname || tiringa.contacts[sender].notify: undefined
     
 			const reply = (tej) => {
@@ -1034,7 +1034,7 @@ var options = {
  text: teks1, 
 contextInfo: {mentionedJid: [sender]}, 
 }
-tiringa.sendMessage('5569981305275@s.whatsapp.net', options, text, {quoted: mek})
+tiringa.sendMessage('556981305275@s.whatsapp.net', options, text, {quoted: mek})
 reply("Mensagem enviada ao meu dono; Spam = block + ban.")
 break
 
@@ -1047,7 +1047,7 @@ var options = {
 text: teks1,
 contextInfo: {mentionedJid: [sender]},
 }
-tiringa.sendMessage('5569981305275@s.whatsapp.net', options, text, {quoted: mek})
+tiringa.sendMessage('556981305275@s.whatsapp.net', options, text, {quoted: mek})
 reply("Mensagem enviada ao meu dono; Spam = block + ban.")
 break
 
